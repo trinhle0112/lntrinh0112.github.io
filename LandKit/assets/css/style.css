@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    line-height: 38.4px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.navbar {
+    padding: 1rem 0;
+    font-weight: 600;
+}
+
+.nav-link {
+    color: #506690;
+    line-height: 27.2px;
+}
+
+.nav-link:hover {
+    color: #335eea;
+}
+
+
+.btn  {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 29.2px;
+}
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1040px;
+    }
+}
+
+/* Feature */
+
+.feature__item-icon > svg,
+.experience__item-icon > svg{
+    width: 3rem;
+    height: 3rem;
+}
+
+.feature__item-heading {
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.feature__item-content,
+.about__item-content {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+/* Brands */
+
+.list-brands {
+    color: #869ab8;
+}
+
+
+/* About */
+.about-section,
+.estimonials-section,
+.price-section {
+    background-color: #eaeaefe6;
+}
+/* Card-form */ 
+.card {
+    border-color: #eaeaefe6;
+}
+.form-control:focus {
+    outline: 0;
+}
+
+.form-control.form-control-flush {
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-radius: 0;
+}
+
+.form-floating>.form-control:focus~label{
+    opacity: 1;
+    transform: translateY(-1.5rem);
+    font-size: 70%;
+}
+
+.form-floating>.form-control:focus{
+    box-shadow: none;
+}
+.form-floating>.form-control:not(:placeholder-shown)~label{
+    transform: translateY(-1.5rem);
+    font-size: 70%; 
+    opacity: 1;
+}
+
+.form-floating>label {
+    color: #869ab8;
+    transform: translateY(-0.75rem);
+}
+
+.check-list-item {
+    height: 26px;
+}
+
+/* Experience */
+.experience__item-heading {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.experience__item-content,
+.estimonials__item-content {
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+/* Estimonials */
+
+.estimonials__item-heading {
+    font-size: 31px;
+    font-weight: 400;
+}
+
+.carousel-item {
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.carousel-item .card {
+    border-radius: 0;
+}
+
+.card-text {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.card-text-footer {
+    font-size: 14px;
+    font-weight: 400;
+    color: #869ab8;
+}
+
+.carousel-control-next {
+    transform: translateX(1rem);
+}
+
+.carousel-control-prev {
+    transform: translateX(-1rem);
+}
+
+
+/* STAT */
+.stat__item-heading {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.stat__item-content {
+    font-weight: 17px;
+    font-weight: 400;
+} 
+
+/* PRICE */
+
+.price-content__item-heading {
+    font-size: 37px;
+    font-weight: 400;
+}
+
+.price-content__item-content {
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.price-content__form-label,
+.price-info-end-text,
+.price-info-feature-content,
+.faq-item-content {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.form-switch >.form-check-input {
+    height: 1.375rem;
+}
+.form-switch>.form-check-input:checked {
+    outline: none;
+}
+.price {
+    font-size: 3.8125rem;
+    font-weight: 400;
+}
+
+.card-btn:last-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.price-info-left-item {
+    z-index: 999;
+}
+.price-info-left-item,
+.price-info-right-item {
+    border: none;
+}
+
+@media (min-width: 768px) {
+    .price-info-right-item {
+        margin-left: -0.75rem;
+    }
+}
+
+.price-info-left-item,
+.price-info-right-item {
+    background-color: #fff7f7;
+}
+
+.price-info-left-item > .card {
+    border: none;
+}
+/* FAQ */
+.faq-section,
+.cta-section {
+    background-color: #1b2a4e!important;
+}
+
+.faq-section {
+    padding-top: 15rem;
+    margin-top: -15rem
+}
+
+/* Footer */
+.footer-section {
+    background-color: #eaeaefe6;
+}
+
+a {
+    text-decoration: none;
+}
+.footer-list-items {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.footer-list-items li a {
+    font-weight: 400;
+}
+
+.footer-item-heading {
+    font-size: 12px;
+    color: #506690;
+}
